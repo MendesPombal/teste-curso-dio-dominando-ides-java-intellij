@@ -13,10 +13,13 @@ public class Calculadora {
         System.out.println("Entre com segundo Número: ");
         num2 = input.nextInt();
 
+        System.out.println("--------------RESULTADOS--------------");
+        System.out.println("--------------------------------------");
         System.out.println("SOMA = " + (num1 + num2));
         System.out.println("SUBTRAÇÃO = " + (num1 - num2));
         System.out.println("MULTIPLICAÇÃO = " + (num1 * num2));
         System.out.println("DIVISÃO = " + (num1 / num2));
+        System.out.println("--------------------------------------");
 
 
     }
